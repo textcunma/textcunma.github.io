@@ -1,0 +1,176 @@
+<!DOCTYPE html>     <!-- DOCTYPPE宣言：HTML 5 -->
+<html lang="ja">  <!-- 日本語-->
+    <!-- 「class="no-js」は不要と感じたためHTML開始タグで記述しない -->
+
+    <head>
+        <!-- ↓ 文字コード指定 --> 
+        <meta charset="utf-8">  
+
+        <!-- ↓ フレキシブルなデザイン（初期サイズ・最大サイズ：１）-->
+        <!-- スマホユーザーに拡大縮小を許可したいためuser-scalable=no設定にはしない -->
+        <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0">
+
+        <!-- CSSファイルを読み込む -->
+        <link rel="stylesheet" href="css/common.css">
+        <!-- ↓ スマホ/タブレット用 -->
+        <link rel="stylesheet" href="css/index_sm.css" media="screen and (max-width:767px)">
+        <!-- ↓ PC用 -->
+        <link rel="stylesheet" href="css/index_pc.css" media="screen and (min-width:768px)"> 
+        
+        <!-- ↓ IEでWebページを見る人のために記述 -->
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+        <!-- OGP設定は不要なためしない -->
+        
+        <!-- ↓ メールアドレス、電話番号に対して勝手にリンク貼らせない -->
+        <meta name="format-detection" content="email=no,telephone=no,address=no">
+        
+        <!-- ↓ その他（タイトル、アイコン(ファビコン)、キーワード、説明） -->
+        <!-- apple touch iconはPortfolioでは不要なため記述しない -->
+        <title>Taiki Nakamura</title>
+        <link rel="icon" href="./img/favicon.png">
+        <meta name="keywords" content="ポートフォリオ,自己紹介,portfolio">
+        <meta discription="description" content="Taiki Nakamura Portfolio">
+    </head>
+
+    <body>
+        <header>
+            <!-- ヘッダー要素
+                【スマホ/PC両方に登場】
+                ホームボタン：自身の名前を表示
+                サイドバー：メニュー表示
+                    ・SKILLS
+                    ・WORKS   
+             -->
+            <div id="home">
+                <a href="./index.html">HOME</a>
+                <img src="img/home.png" alt="home icon" id="homeicon">
+            </div>
+            <div id="skills">
+                <a href="./skills.html">SKILLS</a>
+                <img src="img/skills.png" alt="skills icon" id="skillsicon">
+            </div>
+            <div id="works">
+                <a href="./works.html">WORKS</a>
+                <img src="img/shuttle.png" alt="works icon" id="worksicon">
+            </div>
+        </header>
+
+        <main>
+            <div class="sidewindow">
+                <!-- サイドウィンドウ要素
+                    アイコン
+                    名前
+                    簡単な紹介
+                    リンク集
+                -->
+                <div>
+                    <img src="./img/icon.png" class="icon" alt="icon">
+                </div>
+
+                <div>
+                    <a class="name">Taiki Nakamura<br></a>
+                    <a class="status">学生<span class="br">画像処理|3DCG</span></a>
+                </div>
+
+                <div id="github">
+                    <img src="img/github.svg" class="SNSicon" alt="GitHub icon" href="https://github.com/textcunma/">
+                    <a class="SNStext" href="https://github.com/textcunma/">GitHub</a>
+                </div>
+
+                <div id="twitter">
+                    <img src="img/twitter.svg" class="SNSicon" alt="Twittericon" href="https://twitter.com/text_cunma">
+                    <a class="SNStext" href="https://twitter.com/text_cunma">Twitter</a>
+                </div>
+            </div>
+
+
+            <div class="story" data-barba="container">
+                <!-- メイン要素
+                    自己紹介
+                -->
+                <h1>HOME</h1>
+
+                <h2>自己紹介</h2>
+                <a>情報系大学院生<br>深層学習を用いた画像処理、映像処理やVision & Languageを専門<br>技術や芸術を問わず作品の作成・鑑賞が好み
+
+                <h2>経歴</h2>
+                <h4 class="cell">学歴</h4>
+                <div>
+                    <dl class="cell">
+                        <dt>2018 - 2021</dt>
+                        <dd><a> 学士（工学）</a></dd>
+                        <dd><a>鹿児島大学 工学部 情報生体システム工学科（累積GPA 3.74）</a></dd>
+                        <dd><a>渡邊研究室所属</a></dd>
+                    </dl>
+                    
+                    <dl class="cell">
+                        <dt>2022 - 現在</dt>
+                        <dd><a>修士（工学）</a></dd>
+                        <dd><a>鹿児島大学大学院 理工学研究科 工学専攻（情報・生体工学プログラム）</a></dd>
+                        <dd><a>鹿嶋研究室所属</a></dd>
+                    </dl>
+
+                </div>
+                <h4 class="cell">職歴（インターンシップ）</h4>
+                <div class="cell">
+                    <dl>
+                        <dt>2022  3/1 — 3/25</dt>
+                        <dd><a href="https://fujitsu.recruiting.jp.fujitsu.com/internship/event/hackathon/">富士通株式会社</a></dd>
+                        <dd>コンペティション型インターンシップ</dd>
+                        <dd>Palantir Foundryを用いたデータサイエンス</dd>
+                    </dl>
+                </div>
+
+                <h2>学会発表</h2>
+                <dl class="cell">
+                    <dt>2021年度九州支部学生会講演会</dt>
+                    <dd><a>中村 太紀，呉 道峰，福元 伸也，鹿嶋 雅之，渡邊 睦, 映像作品を用いた絵コンテの自動生成のためのキャプション生成に関する研究,D-29(2021.9)</a></dd>
+                </dl>
+
+                <dl class="cell">
+                    <dt>2022年IEICE総合大会</dt>
+                    <dd><a>中村 太紀，呉 道峰，福元 伸也，鹿嶋 雅之，渡邊 睦, アニメ制作効率向上のための原画位置合わせWebアプリケーションKeyframe Refinerの開発,D-11-33(2022.3)</a></dd>
+                </dl>
+
+                <h2>受賞歴</h2>
+                <h4>内部受賞</h4>
+                <ul class="cell">
+                    <li>学科長賞（2018年度前期)</li>
+                    <li>学部長賞(2018年度後期、2019年度前後期、2020年度前期、2021年度)</li>
+                    <li>卒業研究最優秀発表賞</li>
+                    <li>工学部稲盛学生賞</li>
+                    <li>稲盛賞</li>
+                </ul>
+                <h4>外部受賞</h4>
+                <ul class="cell">
+                    <li>学生会講演奨励賞（2021年度九州支部学生会講演会）</li>
+                </ul>
+
+                <h2>資格</h2>
+                <ul class="cell">
+                    <li>情報セキュリティマネジメント試験 取得(2019年春)</li>
+                    <li>基本情報技術者試験 取得(2019年秋)</li>
+                </ul>
+
+
+                <h2>その他活動</h2>
+                <ul class="cell">
+                    <li>松尾研究室セミナー参加(深層生成、自然言語処理、画像認識)</li>
+                    <li>第9回 日経 星新一賞  投稿</li>
+                    <li>手描きアニメーションドキュメンタリー『Hand-Drawn』クラウドファンディング参加</li>
+                </ul>
+            </div>
+        </main>
+
+        <footer>
+            <!-- フッター要素 
+                copyright：更新日、著作権
+             -->
+            <a>Latest Update 2022/3/27 ©︎ textcunma</a>
+        </footer>
+        
+        <script src="https://unpkg.com/@barba/core"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/gsap.min.js"></script>
+    </body>
+</html>

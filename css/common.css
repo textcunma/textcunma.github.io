@@ -1,0 +1,131 @@
+@charset "utf-8";   /*文字列指定*/
+
+/*
+PC/スマホ/タブレット　共通のCSSファイル
+*/
+
+/************* 基本設定 **************/
+/*スマホの縦・横向きの自動調整をOFFにする*/
+html{
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust:100%;  
+    -ms-text-size-adjust:100%;
+    text-size-adjust: 100%;
+}
+
+/* ページに余分な余白を無くす、その他：背景色等指定 */
+body {
+    margin: 0;
+    padding: 0;
+    font-weight: 500; 
+    line-height: 1.85; 
+    background: #f3f3f3;
+    display: flex;
+    flex-flow: column;
+    min-height: 100vh;
+}
+
+/*ハイパーリンクの見た目を変化させない*/
+a{
+    color: inherit;
+    text-decoration: none;      
+}
+
+/*画像選択を禁止*/
+img {
+	user-select:none;
+	-webkit-user-drag: none;
+	-moz-user-select: none;
+}
+
+/*リスト記述の左空白を削除*/
+ul{
+    padding-left: 0px;
+}
+
+/************* ヘッダー基本設定 **************/
+header {
+    color:black;            /*文字色指定*/
+    display:grid;             /*グリッドレイアウト*/
+}
+
+.name{
+    font-weight: 600;
+}
+
+#home{
+    font-family:"Segoe UI"; /*フォント指定*/
+}
+
+#skills,#works{
+    font-family:"Arial";    /*フォント指定*/
+}
+
+/************* ヘッダーアニメーション設定 **************/
+header a{
+    position: relative; /*線の基点*/
+} 
+
+header.current a,
+header a:hover{
+    background-color: aliceblue;    /*背景色変更*/
+    color:#0481A2;                  /*文字色変更*/
+}
+
+header a::after {
+    content: '';
+    position: absolute; /*線の位置決定（絶対配置）*/
+    bottom: 0;
+    left: 0%;
+    /*線の形状*/
+    width: 100%;
+    height: 2px;
+    background:#0481A2;
+    /*アニメーションの指定*/
+    transition: all .2s;
+    transform: scale(0, 1);/*X方向0、Y方向1*/
+    transform-origin: left top;/*左上基点*/
+}
+
+/*現在地とhoverの設定*/
+header.current a::after,
+header a:hover::after {
+    transform: scale(1, 1);/*X方向にスケール拡大*/
+}
+
+/************* 本文基本設定 **************/
+/*見出し*/
+h1{
+    margin-top:0;
+}
+
+h3{
+    margin-top:0;
+    font-size:2em;
+}
+
+/*スキル表示*/
+.star{
+    color:red;
+}
+
+/*リンク*/
+.link{
+    color:#20b6b6;
+}
+
+.link:hover{
+    color:#6ee9e9;
+}
+
+/************* フッター基本設定 **************/
+footer{
+    text-align: right;
+    width:100%;
+    color:white;
+    background-color:#3b4848;
+}
+
+footer a{
+    padding-right:1%;
+}

@@ -1,0 +1,188 @@
+@charset "utf-8";
+
+/*
+PC向け　CSSファイル
+*/
+/************* 基本設定 **************/
+body{
+    font-size: 16px;    /*フォントサイズのベース*/
+}
+
+/************* ヘッダー **************/
+header {
+	margin-left:17vw;                                   /*ビューポートの幅に合わせて動的に変化：15/100*(ViewPort):1vw -> 1/100*ViewPort*/
+	grid-template-columns: 15em 9.375em 9.375em;        /*フォントサイズ16pxの場合： 272px  150px 150px */
+    grid-template-rows: 2.5em;                          /*フォントサイズ16pxの場合： 40px */
+	margin-top:2em;                                     /*フォントサイズ16pxの場合： 32px */
+}
+
+/* ホームボタン設定 */
+#home{
+	font-size:1.7em;            /*フォントサイズ：16px(body)×1.7 = 27.2px*/
+}
+
+/*ホームアイコンの大きさ*/
+#homeicon{
+	width:10%;
+}
+
+/*スキルアイコンの大きさ*/
+#skillsicon{
+	width:15%;
+}
+
+/*ワークスアイコンの大きさ*/
+#worksicon{
+	width:15%;
+}
+
+/* ヘッダー内ヘッド設定 */
+#skills,#works{
+	margin-top:0.3125em;    /*上余白サイズ  フォントサイズ16pxの場合： 5px*/
+	font-size:1.5em;        /*フォントサイズ：16px(body)×1.5 = 24px*/
+}
+
+/************* メイン **************/
+main{
+	flex:1;
+	margin-top:5em;         /*上余白サイズ  フォントサイズ16pxの場合： 80px*/
+    margin-left:17vw;       /*ビューポートの幅に合わせて動的に変化15/100*(ViewPort):1vw -> 1/100*ViewPort*/
+    max-width: 975px;       /*mainセクションの最大幅*/
+}
+
+/************* サイドウィンドウ **************/
+.sidewindow{
+    position: sticky;       /*スクロールしても追従*/
+    top: 5%;                /*上部位置*/
+    float: left;            /*左詰め*/
+    width: 15%;             /*親要素(mainセクション)の20%の幅*/
+}
+
+/*名前設定*/
+.name{
+	font-size:1em;      /*フォントサイズ：16px(body)×1 = 16px*/
+}
+
+/*ステータス設定*/
+.status{
+    font-size:0.8em;    /*フォントサイズ：16px(body)×0.8 = 12.8px*/
+}
+
+/*学生 - 画像処理の間で改行させる*/
+.br::before {
+	content: "\A" ;
+	white-space: pre ;
+}
+
+/*アイコン設定*/
+.icon{
+    max-width: 100%;        /*アイコン幅設定：親要素(side window)の100%の幅*/
+    border-radius: 50%;     /*丸アイコン化*/
+}
+
+/*GitHub Twitterアイコン設定*/
+.SNSicon{
+    max-width: 1em;     /*アイコン幅設定*/
+	font-size:1em;      /*フォントサイズ：16px(body)×1 = 16px*/
+}
+
+/*GitHub Twitterテキスト設定*/
+.SNStext{
+    font-size:1em;      /*フォントサイズ：16px(body)×1 = 16px*/
+    font-family:"Segoe UI";     /*フォント指定*/
+}
+
+/*SNSテキストをホバーした場合*/
+#github :hover,#twitter :hover{
+    color:#ff9c9c;      /*フォント色指定*/
+}
+
+/************* 本文設定 **************/
+.story{
+    float: right;   /*右詰め*/
+    width: 70%;     /*親要素(mainセクション)の70%の幅*/
+    margin-right: 50px;        /*右余白の消去*/
+}
+
+/*本文内容(index.html)*/
+.cell{
+	margin-left:2em;
+}
+
+/*見出し(index.html)*/
+h2{
+    margin-top:1.5em;
+}
+
+/*見出し(index.html)*/
+h4{
+    margin: 0;
+}
+
+/*スキルグラフ(skills.html)*/
+.graph{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+	margin-bottom:3em;
+}
+
+/*スキルグラフのキャンバス(skills.html)*/
+#mychart,#mychart2,#mychart3,#mychart4,#mychart5,#mychart6,#mychart7{
+	width:25%;
+}
+
+/*スキル表 スキルランク列(skills.html)*/
+.rank{
+	width:7em;
+}
+
+/*スキル表 説明列(skills.html)*/
+.disc{
+	width:40em;
+}
+
+/*スキル表　星の文字設定(skills.html)*/
+.star{
+    font-size:1.2em;
+}
+
+/*作品一覧設定(works.html)*/
+.works{
+	display: flex;
+    flex-wrap:wrap;
+	width:100%;
+	gap: 30px 44px;
+}
+
+/*各作品(works.html)*/
+.One_work{
+    display: grid;
+    grid-template-columns: 18em;
+    grid-template-rows: 11em 2.0em;
+	place-items: center;
+    cursor: pointer;
+}
+
+/*各作品のタイトル(works.html)*/
+.worktitle{
+	font-size:1.5em;
+	font-family:system-ui;
+}
+
+/*個々の作品設定(works.html)*/
+.workimage{
+	width:100%;
+}
+
+/*各作品にマウスホバーした場合の処理(works.html)*/
+.workimage:hover{
+    opacity: 0.6;               /*白っぽくする*/
+    filter: brightness(105%);   /*白っぽくする*/
+}
+
+/************* フッター **************/
+footer{
+    margin-top:3em;
+	height:50px;       /*フォントの高さ指定*/
+}
