@@ -173,6 +173,8 @@ h4{
 /*個々の作品設定(works.html)*/
 .workimage{
 	width:100%;
+	height: 150px;      /*高さをそろえる*/
+	object-fit: cover;
 }
 
 /*各作品にマウスホバーした場合の処理(works.html)*/
