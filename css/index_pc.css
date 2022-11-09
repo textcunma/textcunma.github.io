@@ -93,7 +93,7 @@ main{
 }
 
 /*SNSテキストをホバーした場合*/
-#github :hover,#twitter :hover{
+#github :hover, #twitter :hover, #twitter_2nd :hover{
     color:#ff9c9c;      /*フォント色指定*/
 }
 

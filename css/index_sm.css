@@ -54,10 +54,11 @@ main{
 /************* サイドウィンドウ **************/
 .sidewindow{
 	display:grid;
-	grid-template-columns: 10% 50% 10% 10%;
-    grid-template-rows: 50px;
+	grid-template-columns: 10% 50% 10% 10% 10%;
+    grid-template-rows: 40px;
 	margin-left:20%;
 	margin-top:7%;
+    margin-bottom:2%;
 	text-align:center;
 	line-height: 3vw;
 }
@@ -89,6 +90,14 @@ main{
 /*GitHub Twitterテキスト設定*/
 .SNStext{
     font-size:0px;
+}
+
+#twitter {
+    background-color:rgb(199, 240, 196);
+}
+
+#twitter_2nd {
+    background-color:rgba(225, 235, 172, 0.487);
 }
 
 /************* 本文設定 **************/
