@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+     .url-link {
+       @apply text-cyan-400 hover:text-cyan-200;
+     }
+     .skill-display {
+          @apply flex flex-col border rounded-lg gap-3 p-4 md:p-6 bg-gradient-to-b from-amber-50;
+     }
+     .headline {
+          @apply text-2xl font-bold mb-3;
+     }
+     .sub-headline {
+          @apply text-xl font-bold;
+     }
+     .sns-btn {
+          @apply bg-gray-100 hover:bg-gray-200 active:bg-gray-400 shadow-md font-bold py-2 px-4 rounded inline-flex items-center cursor-pointer;
+     }
+     .normal-btn {
+          @apply inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white rounded-lg bg-orange-500 hover:bg-orange-700 active:bg-orange-800;
+     }
+     .menu-str {
+          @apply text-gray-600 hover:text-orange-500 active:text-orange-700 text-lg font-semibold transition duration-100;
+     }
+     .menu-str-sm {
+          @apply text-gray-600 hover:text-orange-500 active:text-orange-700 hover:bg-yellow-100 py-3 px-8 text-lg font-semibold transition duration-100;
+     }
+     .experience-board {
+          @apply block p-8 rounded-lg w-80 md:w-1/2 mx-auto border-4;
+     }
+}
