@@ -16,7 +16,7 @@ const routes = [
 ]
 
 const router = createRouter({
-     history: createWebHashHistory(process.env.BASE_URL),
+     history: createWebHashHistory(process.env.ROOT_BASE),
      routes,
      scrollBehavior(to) {
           if (to.hash) {
