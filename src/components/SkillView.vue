@@ -101,15 +101,27 @@
                          },
                          {    
                               id: 8, 
+                              name: 'Git', 
+                              star: '★★☆☆☆',
+                              desc: '研究や趣味で使用' 
+                         },
+                         {    
+                              id: 9, 
                               name: 'OpenGL', 
                               star: '★☆☆☆☆',
                               desc: '趣味で使用。使用期間3カ月' 
                          },
                          {    
-                              id: 9, 
+                              id: 10, 
                               name: 'Java', 
                               star: '★☆☆☆☆',
                               desc: '授業で習得程度。使用期間4カ月' 
+                         },
+                         {    
+                              id: 11, 
+                              name: 'Docker', 
+                              star: '★☆☆☆☆',
+                              desc: '研究で数回程度使用' 
                          },
                     ]
                }
