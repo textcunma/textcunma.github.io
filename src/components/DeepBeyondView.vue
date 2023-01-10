@@ -1,7 +1,7 @@
 <template>
      <div id="deepbeyond">
           <p class="text-4xl my-3 font-bold">Deep Beyond</p>
-          <img src="@/assets/deepbeyond.png" alt="Deep Beyondアイコン" class="my-3 w-80 mx-auto">
+          <img src="@/assets/deepbeyond.png" alt="Deep Beyondアイコン" class="my-3 w-80 mx-auto" loading=”lazy”>
           <p class="text-lg font-bold my-2">概要・開発目的</p>
           <p>馬の写真から自動で馬体測定をするソフトウェア。競馬好きの友人がサラブレッドの足の長さと成績が
                関係しているという噂を検証することからスタートし、最終的には馬の健康状態測定にも使えるのではないかと

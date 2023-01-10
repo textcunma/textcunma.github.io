@@ -1,7 +1,7 @@
 <template>
      <div id="keyframe">
           <p class="text-4xl my-3 font-bold">Keyframe Refiner</p>
-          <img src="@/assets/keyframe.jpg" alt="Keyframe Refiner表示画面" class="my-3">
+          <img src="@/assets/keyframe.jpg" alt="Keyframe Refiner表示画面" class="my-3" loading=”lazy”>
           <p class="text-lg font-bold my-2">概要・開発目的</p>
           <p>手書きアニメーション制作において発生する用紙の位置ずれを自動的に修正するアプリケーション。
                原画やレイアウトをスキャンする際に位置ずれが発生してしまう。
