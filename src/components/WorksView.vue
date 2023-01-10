@@ -3,7 +3,7 @@
           <p class="headline">WORKS</p>
           <div class="grid sm:grid-cols-1 lg:grid-cols-2 gap-4 md:gap-6">
                <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md">
-                    <img class="rounded-t-lg object-cover h-48 w-96" src="@/assets/portfolio.png" alt="ポートフォリオ画像" />
+                    <img class="rounded-t-lg object-cover h-48 w-96" src="@/assets/portfolio.png" alt="ポートフォリオ画像" loading=”lazy” />
                     <div class="p-5">
                          <p class="mb-2 text-xl tracking-tight">ポートフォリオサイト</p>
                          <p class="mb-3 font-normal text-gray-700">使用技術 : <br>Vue, Vue Router, Tailwind CSS, HTML</p>
@@ -12,7 +12,7 @@
                </div>
 
                <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md">
-                    <img class="rounded-t-lg object-cover h-48 w-96" src="@/assets/keyframe.jpg" alt="Keyframe Refiner画像" />
+                    <img class="rounded-t-lg object-cover h-48 w-96" src="@/assets/keyframe.jpg" alt="Keyframe Refiner画像" loading=”lazy” />
                     <div class="p-5">
                          <p class="mb-2 text-xl tracking-tight">Keyframe Refiner</p>
                          <p class="mb-3 font-normal text-gray-700">手書きアニメ制作効率支援ソフトウェア</p>
@@ -26,7 +26,7 @@
                </div>
 
                <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md">
-                    <img class="rounded-t-lg object-cover h-48 w-96" src="@/assets/deepbeyond.png" alt="Deep Beyond画像" />
+                    <img class="rounded-t-lg object-cover h-48 w-96" src="@/assets/deepbeyond.png" alt="Deep Beyond画像" loading=”lazy” />
                     <div class="p-5">
                          <p class="mb-2 text-xl tracking-tight">Deep Beyond</p>
                          <p class="mb-3 font-normal text-gray-700">馬体測定ソフトウェア</p>
@@ -40,7 +40,7 @@
                </div>
 
                <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md">
-                    <img class="rounded-t-lg object-cover h-48 w-96" src="@/assets/movie.png" alt="映像作品の画像" />
+                    <img class="rounded-t-lg object-cover h-48 w-96" src="@/assets/movie.png" alt="映像作品の画像" loading=”lazy” />
                     <div class="p-5">
                          <p class="mb-2 text-xl tracking-tight">映像作品</p>
                          <p class="mb-3 font-normal text-gray-700">趣味で作成した映像たち</p>
