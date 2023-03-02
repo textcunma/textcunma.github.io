@@ -36,7 +36,7 @@
 			</div>
 		</div>
 
-		<p class="sub-headline my-5">学会発表</p>
+		<p class="sub-headline my-5">学会/研究会発表</p>
 		<div class="mx-auto flex flex-col gap-4">
 			<div class="experience-board">
 				<p class="text-gray-900 text-xl leading-tight font-medium mb-2">2021年度九州支部学生会講演会</p>
@@ -44,9 +44,19 @@
 				<p>「映像作品を用いた絵コンテの自動生成のためのキャプション生成に関する研究」 <br> 口頭発表</p>
 			</div>
 			<div class="experience-board">
+				<p class="text-gray-900 text-xl leading-tight font-medium mb-2">2022年電子情報通信学会総合大会</p>
+				<p class="text-gray-700 text-base mb-4">2022年3月</p>
+				<p>「アニメ制作効率向上のための原画位置合わせ Web アプリケーションKeyframe Refiner の開発」 <br> 口頭発表</p>
+			</div>
+			<div class="experience-board">
 				<p class="text-gray-900 text-xl leading-tight font-medium mb-2">MIRU2022</p>
 				<p class="text-gray-700 text-base mb-4">2022年7月</p>
-				<p>「詳細な映像検索のための絵コンテ自動生成に関する研究」（IS2-62） <br> ポスター発表</p>
+				<p>「詳細な映像検索のための絵コンテ自動生成に関する研究」(IS2-62) <br> ポスター発表</p>
+			</div>
+			<div class="experience-board">
+				<p class="text-gray-900 text-xl leading-tight font-medium mb-2">第9回甲南大学・鹿児島大学合同ロボット・コンピュータビジョン研究会</p>
+				<p class="text-gray-700 text-base mb-4">2022年12月</p>
+				<p>「映像作品を用いた絵コンテの自動生成に関する研究」</p>
 			</div>
 		</div>
 
