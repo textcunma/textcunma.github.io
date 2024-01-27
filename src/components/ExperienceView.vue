@@ -58,6 +58,16 @@
 				<p class="text-gray-700 text-base mb-4">2022年12月</p>
 				<p>「映像作品を用いた絵コンテの自動生成に関する研究」</p>
 			</div>
+			<div class="experience-board">
+				<p class="text-gray-900 text-xl leading-tight font-medium mb-2">パターン認識・メディア理解研究会 (PRMU) </p>
+				<p class="text-gray-700 text-base mb-4">2023年11月</p>
+				<p>「映像理解のための映像から絵コンテの生成に関する研究」(信学技報, vol.123, no.266, PRMU2023-19, pp.22-27, 2023年11月)</p>
+			</div>
+			<div class="experience-board">
+				<p class="text-gray-900 text-xl leading-tight font-medium mb-2">第10回甲南大学・鹿児島大学合同ロボット・コンピュータビジョン研究会</p>
+				<p class="text-gray-700 text-base mb-4">2023年11月</p>
+				<p>「映像作品を用いた絵コンテの自動生成に関する研究」</p>
+			</div>
 		</div>
 
 		<p class="sub-headline my-5">受賞歴</p>
@@ -94,6 +104,7 @@
 					<li>第9回 日経 星新一賞  投稿</li>
 					<li class="url-link"><a href="http://www.handdrawnfilm.com/thank-you.html">手描きアニメーションドキュメンタリー『Hand-Drawn』クラウドファンディング参加</a></li>
 					<li class="url-link"><a href="https://twitter.com/text_cunma2/status/1519278500330733568?s=20&t=iVbfD6CI9MBLTP0KxoJJHw">作画王グランプリ9位入賞</a></li>
+					<li class="url-link"><a href="https://www.kagoshima-u.ac.jp/topics/2023/12/post-2147.html">鹿児島大学SDGsシンボルマーク優秀賞</a></li>
 				</ul>
 			</div>
 		</div>
