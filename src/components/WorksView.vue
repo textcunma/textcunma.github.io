@@ -40,7 +40,7 @@
                </div>
 
                <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md">
-                    <img class="rounded-t-lg object-cover h-48 w-96" src="@/assets/movie.png" alt="映像作品の画像" loading=”lazy” />
+                    <img class="rounded-t-lg object-cover h-48 w-96" src="@/assets/movie2.png" alt="映像作品の画像" loading=”lazy” />
                     <div class="p-5">
                          <p class="mb-2 text-xl tracking-tight">映像作品</p>
                          <p class="mb-3 font-normal text-gray-700">趣味で作成した映像たち</p>

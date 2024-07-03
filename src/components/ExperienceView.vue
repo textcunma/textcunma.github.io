@@ -1,10 +1,21 @@
 <template>
 	<div id="experience">
 		<p class="headline">Experience</p>
+		<p class="sub-headline my-5">職歴</p>
+		<div class="mx-auto flex flex-col gap-4">
+			<div class="experience-board">
+				<p class="text-gray-900 text-xl leading-tight font-medium mb-2">2024 - 現在</p>
+				<p class="text-gray-700 text-base mb-4">
+					IT企業
+				</p>
+				<p>データサイエンティスト</p>
+			</div>
+		</div>
+
 		<p class="sub-headline my-5">学歴</p>
 		<div class="mx-auto flex flex-col gap-4">
 			<div class="experience-board">
-				<p class="text-gray-900 text-xl leading-tight font-medium mb-2">2022 - 現在</p>
+				<p class="text-gray-900 text-xl leading-tight font-medium mb-2">2022 - 2024</p>
 				<p class="text-gray-700 text-base mb-4">
 					鹿児島大学大学院 理工学研究科 <br> 工学専攻 情報・生体工学プログラム
 				</p>
@@ -22,7 +33,7 @@
 			</div>
 		</div>
 
-		<p class="sub-headline my-5">インターンシップ</p>
+		<!-- <p class="sub-headline my-5">インターンシップ</p>
 		<div class="mx-auto flex flex-col gap-4">
 			<div class="experience-board">
 				<p class="text-gray-900 text-xl leading-tight font-medium mb-2">2022 3.1 — 3.25</p>
@@ -34,7 +45,7 @@
 				<p class="text-gray-700 text-base mb-4">シャープ株式会社</p>
 				<p>研究開発インターン <br> 3D映像符号化の標準化</p>
 			</div>
-		</div>
+		</div> -->
 
 		<p class="sub-headline my-5">学会/研究会発表</p>
 		<div class="mx-auto flex flex-col gap-4">
@@ -93,6 +104,7 @@
 				<ul class="list-disc">
 					<li>情報セキュリティマネジメント試験 取得(2019年春)</li>
 					<li>基本情報技術者試験 取得(2019年秋)</li>
+					<li>.com Master★(2024年6月)</li>
 				</ul>
 			</div>
 		</div>
