@@ -3,7 +3,7 @@
 		<div class="text-center m-5">
 			<img alt="logo" src="../assets/icon.gif" class="m-auto w-80 rounded-3xl" loading=”lazy”>	
 			<p class="text-2xl font-momo">Taiki Nakamura</p>
-			<p class="text-lg font-momo text-slate-500">engineer</p>
+			<p class="text-lg font-momo text-slate-500">Data Scientist</p>
 		</div>
 
 		<div class="w-60 mx-auto my-10 flex flex-col gap-4">
